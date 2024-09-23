@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992E00D9027E5BF03C3080BC /* Pods_N_VibeGoogleMapTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACDE71842A61D27B9E38A54 /* Pods_N_VibeGoogleMapTest.framework */; };
+		E91E0B242CA1A91F00107327 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B022CA1A91F00107327 /* SplashScreenVC.swift */; };
+		E91E0B252CA1A91F00107327 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B042CA1A91F00107327 /* Constants.swift */; };
+		E91E0B262CA1A91F00107327 /* GooglePlacesSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B062CA1A91F00107327 /* GooglePlacesSearchManager.swift */; };
+		E91E0B272CA1A91F00107327 /* MyLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B072CA1A91F00107327 /* MyLocationManager.swift */; };
+		E91E0B282CA1A91F00107327 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B082CA1A91F00107327 /* NavigationManager.swift */; };
+		E91E0B292CA1A91F00107327 /* UIActivityIndicatorViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B0A2CA1A91F00107327 /* UIActivityIndicatorViewExtension.swift */; };
+		E91E0B2A2CA1A91F00107327 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B0B2CA1A91F00107327 /* UIViewControllerExtension.swift */; };
+		E91E0B2B2CA1A91F00107327 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B0C2CA1A91F00107327 /* UITableViewExtension.swift */; };
+		E91E0B2C2CA1A91F00107327 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B0D2CA1A91F00107327 /* UIViewExtension.swift */; };
+		E91E0B2D2CA1A91F00107327 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B0E2CA1A91F00107327 /* NSAttributedStringExtension.swift */; };
+		E91E0B2E2CA1A91F00107327 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B112CA1A91F00107327 /* BaseViewModel.swift */; };
+		E91E0B2F2CA1A91F00107327 /* NavigationMapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B122CA1A91F00107327 /* NavigationMapVM.swift */; };
+		E91E0B302CA1A91F00107327 /* SearchAddressVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B132CA1A91F00107327 /* SearchAddressVM.swift */; };
+		E91E0B312CA1A91F00107327 /* LandingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B142CA1A91F00107327 /* LandingVM.swift */; };
+		E91E0B332CA1A91F00107327 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B172CA1A91F00107327 /* Toast.swift */; };
+		E91E0B342CA1A91F00107327 /* AddressSearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B1B2CA1A91F00107327 /* AddressSearchResultTableViewCell.swift */; };
+		E91E0B352CA1A91F00107327 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B1D2CA1A91F00107327 /* BaseViewController.swift */; };
+		E91E0B362CA1A91F00107327 /* SearchAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B1E2CA1A91F00107327 /* SearchAddressVC.swift */; };
+		E91E0B372CA1A91F00107327 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B1F2CA1A91F00107327 /* LandingVC.swift */; };
+		E91E0B382CA1A91F00107327 /* NavigationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B202CA1A91F00107327 /* NavigationMapVC.swift */; };
+		E91E0B392CA1A91F00107327 /* AddressSearchResultTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B222CA1A91F00107327 /* AddressSearchResultTextField.swift */; };
+		E91E0B3A2CA1A91F00107327 /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B232CA1A91F00107327 /* CustomLoadingIndicator.swift */; };
+		E91E0B3C2CA1AB5200107327 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B3B2CA1AB5200107327 /* UIColorExtension.swift */; };
+		E91E0B3E2CA1ABFA00107327 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E0B3D2CA1ABFA00107327 /* UIImageExtension.swift */; };
+		E97373D82CA06FEA00DAD547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97373D72CA06FEA00DAD547 /* AppDelegate.swift */; };
+		E97373DA2CA06FEA00DAD547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97373D92CA06FEA00DAD547 /* SceneDelegate.swift */; };
+		E97373DC2CA06FEA00DAD547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97373DB2CA06FEA00DAD547 /* ViewController.swift */; };
+		E97373DF2CA06FEA00DAD547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97373DD2CA06FEA00DAD547 /* Main.storyboard */; };
+		E97373E12CA06FEC00DAD547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97373E02CA06FEC00DAD547 /* Assets.xcassets */; };
+		E97373E42CA06FEC00DAD547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97373E22CA06FEC00DAD547 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9ACDE71842A61D27B9E38A54 /* Pods_N_VibeGoogleMapTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_N_VibeGoogleMapTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65AFA883086817156CC6CE5 /* Pods-N-VibeGoogleMapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N-VibeGoogleMapTest.debug.xcconfig"; path = "Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E91E0B022CA1A91F00107327 /* SplashScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		E91E0B042CA1A91F00107327 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E91E0B062CA1A91F00107327 /* GooglePlacesSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesSearchManager.swift; sourceTree = "<group>"; };
+		E91E0B072CA1A91F00107327 /* MyLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationManager.swift; sourceTree = "<group>"; };
+		E91E0B082CA1A91F00107327 /* NavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		E91E0B0A2CA1A91F00107327 /* UIActivityIndicatorViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewExtension.swift; sourceTree = "<group>"; };
+		E91E0B0B2CA1A91F00107327 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E91E0B0C2CA1A91F00107327 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		E91E0B0D2CA1A91F00107327 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E91E0B0E2CA1A91F00107327 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
+		E91E0B112CA1A91F00107327 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		E91E0B122CA1A91F00107327 /* NavigationMapVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMapVM.swift; sourceTree = "<group>"; };
+		E91E0B132CA1A91F00107327 /* SearchAddressVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAddressVM.swift; sourceTree = "<group>"; };
+		E91E0B142CA1A91F00107327 /* LandingVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVM.swift; sourceTree = "<group>"; };
+		E91E0B172CA1A91F00107327 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		E91E0B1B2CA1A91F00107327 /* AddressSearchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		E91E0B1D2CA1A91F00107327 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E91E0B1E2CA1A91F00107327 /* SearchAddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAddressVC.swift; sourceTree = "<group>"; };
+		E91E0B1F2CA1A91F00107327 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		E91E0B202CA1A91F00107327 /* NavigationMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMapVC.swift; sourceTree = "<group>"; };
+		E91E0B222CA1A91F00107327 /* AddressSearchResultTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSearchResultTextField.swift; sourceTree = "<group>"; };
+		E91E0B232CA1A91F00107327 /* CustomLoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoadingIndicator.swift; sourceTree = "<group>"; };
+		E91E0B3B2CA1AB5200107327 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E91E0B3D2CA1ABFA00107327 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		E97373D42CA06FEA00DAD547 /* N-VibeGoogleMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "N-VibeGoogleMapTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97373D72CA06FEA00DAD547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E97373D92CA06FEA00DAD547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E97373DB2CA06FEA00DAD547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E97373DE2CA06FEA00DAD547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E97373E02CA06FEC00DAD547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E97373E32CA06FEC00DAD547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E97373E52CA06FEC00DAD547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8D0633637059CABF33A012 /* Pods-N-VibeGoogleMapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N-VibeGoogleMapTest.release.xcconfig"; path = "Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97373D12CA06FEA00DAD547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992E00D9027E5BF03C3080BC /* Pods_N_VibeGoogleMapTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84748F9F867B358ADB341C43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A65AFA883086817156CC6CE5 /* Pods-N-VibeGoogleMapTest.debug.xcconfig */,
+				EB8D0633637059CABF33A012 /* Pods-N-VibeGoogleMapTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF2F228FC9CDD9B7ACE30923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ACDE71842A61D27B9E38A54 /* Pods_N_VibeGoogleMapTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91E0B032CA1A91F00107327 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B042CA1A91F00107327 /* Constants.swift */,
+				E91E0B052CA1A91F00107327 /* Managers */,
+				E91E0B092CA1A91F00107327 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E91E0B052CA1A91F00107327 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B062CA1A91F00107327 /* GooglePlacesSearchManager.swift */,
+				E91E0B072CA1A91F00107327 /* MyLocationManager.swift */,
+				E91E0B082CA1A91F00107327 /* NavigationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E91E0B092CA1A91F00107327 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B0A2CA1A91F00107327 /* UIActivityIndicatorViewExtension.swift */,
+				E91E0B0B2CA1A91F00107327 /* UIViewControllerExtension.swift */,
+				E91E0B0C2CA1A91F00107327 /* UITableViewExtension.swift */,
+				E91E0B0D2CA1A91F00107327 /* UIViewExtension.swift */,
+				E91E0B0E2CA1A91F00107327 /* NSAttributedStringExtension.swift */,
+				E91E0B3B2CA1AB5200107327 /* UIColorExtension.swift */,
+				E91E0B3D2CA1ABFA00107327 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E91E0B0F2CA1A91F00107327 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B102CA1A91F00107327 /* ViewModels */,
+				E91E0B182CA1A91F00107327 /* ViewCells */,
+				E91E0B1C2CA1A91F00107327 /* Controllers */,
+				E91E0B212CA1A91F00107327 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E91E0B102CA1A91F00107327 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B112CA1A91F00107327 /* BaseViewModel.swift */,
+				E91E0B122CA1A91F00107327 /* NavigationMapVM.swift */,
+				E91E0B132CA1A91F00107327 /* SearchAddressVM.swift */,
+				E91E0B142CA1A91F00107327 /* LandingVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E91E0B152CA1A91F00107327 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B172CA1A91F00107327 /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		E91E0B182CA1A91F00107327 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B192CA1A91F00107327 /* TableViewCells */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		E91E0B192CA1A91F00107327 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B1A2CA1A91F00107327 /* AddressSearchResultTableViewCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E91E0B1A2CA1A91F00107327 /* AddressSearchResultTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B1B2CA1A91F00107327 /* AddressSearchResultTableViewCell.swift */,
+			);
+			path = AddressSearchResultTableViewCell;
+			sourceTree = "<group>";
+		};
+		E91E0B1C2CA1A91F00107327 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B1D2CA1A91F00107327 /* BaseViewController.swift */,
+				E91E0B1E2CA1A91F00107327 /* SearchAddressVC.swift */,
+				E91E0B1F2CA1A91F00107327 /* LandingVC.swift */,
+				E91E0B202CA1A91F00107327 /* NavigationMapVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E91E0B212CA1A91F00107327 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B152CA1A91F00107327 /* Toast */,
+				E91E0B222CA1A91F00107327 /* AddressSearchResultTextField.swift */,
+				E91E0B232CA1A91F00107327 /* CustomLoadingIndicator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E97373CB2CA06FEA00DAD547 = {
+			isa = PBXGroup;
+			children = (
+				E97373D62CA06FEA00DAD547 /* N-VibeGoogleMapTest */,
+				E97373D52CA06FEA00DAD547 /* Products */,
+				84748F9F867B358ADB341C43 /* Pods */,
+				AF2F228FC9CDD9B7ACE30923 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E97373D52CA06FEA00DAD547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97373D42CA06FEA00DAD547 /* N-VibeGoogleMapTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97373D62CA06FEA00DAD547 /* N-VibeGoogleMapTest */ = {
+			isa = PBXGroup;
+			children = (
+				E91E0B0F2CA1A91F00107327 /* Presentation */,
+				E91E0B022CA1A91F00107327 /* SplashScreenVC.swift */,
+				E91E0B032CA1A91F00107327 /* Utilities */,
+				E97373D72CA06FEA00DAD547 /* AppDelegate.swift */,
+				E97373D92CA06FEA00DAD547 /* SceneDelegate.swift */,
+				E97373DB2CA06FEA00DAD547 /* ViewController.swift */,
+				E97373DD2CA06FEA00DAD547 /* Main.storyboard */,
+				E97373E02CA06FEC00DAD547 /* Assets.xcassets */,
+				E97373E22CA06FEC00DAD547 /* LaunchScreen.storyboard */,
+				E97373E52CA06FEC00DAD547 /* Info.plist */,
+			);
+			path = "N-VibeGoogleMapTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97373D32CA06FEA00DAD547 /* N-VibeGoogleMapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97373E82CA06FEC00DAD547 /* Build configuration list for PBXNativeTarget "N-VibeGoogleMapTest" */;
+			buildPhases = (
+				96AA0CDB312DF13EE11F3AF6 /* [CP] Check Pods Manifest.lock */,
+				E97373D02CA06FEA00DAD547 /* Sources */,
+				E97373D12CA06FEA00DAD547 /* Frameworks */,
+				E97373D22CA06FEA00DAD547 /* Resources */,
+				C4AC5B94101645DEF181D5BB /* [CP] Copy Pods Resources */,
+				07FF2CA24F52E52DD671B69B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "N-VibeGoogleMapTest";
+			productName = "N-VibeGoogleMapTest";
+			productReference = E97373D42CA06FEA00DAD547 /* N-VibeGoogleMapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97373CC2CA06FEA00DAD547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E97373D32CA06FEA00DAD547 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E97373CF2CA06FEA00DAD547 /* Build configuration list for PBXProject "N-VibeGoogleMapTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E97373CB2CA06FEA00DAD547;
+			productRefGroup = E97373D52CA06FEA00DAD547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97373D32CA06FEA00DAD547 /* N-VibeGoogleMapTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97373D22CA06FEA00DAD547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97373E42CA06FEC00DAD547 /* LaunchScreen.storyboard in Resources */,
+				E97373E12CA06FEC00DAD547 /* Assets.xcassets in Resources */,
+				E97373DF2CA06FEA00DAD547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07FF2CA24F52E52DD671B69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AA0CDB312DF13EE11F3AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-N-VibeGoogleMapTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AC5B94101645DEF181D5BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-N-VibeGoogleMapTest/Pods-N-VibeGoogleMapTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97373D02CA06FEA00DAD547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91E0B272CA1A91F00107327 /* MyLocationManager.swift in Sources */,
+				E91E0B262CA1A91F00107327 /* GooglePlacesSearchManager.swift in Sources */,
+				E91E0B2A2CA1A91F00107327 /* UIViewControllerExtension.swift in Sources */,
+				E91E0B2E2CA1A91F00107327 /* BaseViewModel.swift in Sources */,
+				E91E0B252CA1A91F00107327 /* Constants.swift in Sources */,
+				E91E0B3E2CA1ABFA00107327 /* UIImageExtension.swift in Sources */,
+				E91E0B352CA1A91F00107327 /* BaseViewController.swift in Sources */,
+				E91E0B2D2CA1A91F00107327 /* NSAttributedStringExtension.swift in Sources */,
+				E97373DC2CA06FEA00DAD547 /* ViewController.swift in Sources */,
+				E91E0B362CA1A91F00107327 /* SearchAddressVC.swift in Sources */,
+				E91E0B332CA1A91F00107327 /* Toast.swift in Sources */,
+				E91E0B372CA1A91F00107327 /* LandingVC.swift in Sources */,
+				E91E0B2B2CA1A91F00107327 /* UITableViewExtension.swift in Sources */,
+				E91E0B2C2CA1A91F00107327 /* UIViewExtension.swift in Sources */,
+				E91E0B392CA1A91F00107327 /* AddressSearchResultTextField.swift in Sources */,
+				E91E0B382CA1A91F00107327 /* NavigationMapVC.swift in Sources */,
+				E91E0B2F2CA1A91F00107327 /* NavigationMapVM.swift in Sources */,
+				E97373D82CA06FEA00DAD547 /* AppDelegate.swift in Sources */,
+				E91E0B282CA1A91F00107327 /* NavigationManager.swift in Sources */,
+				E97373DA2CA06FEA00DAD547 /* SceneDelegate.swift in Sources */,
+				E91E0B3C2CA1AB5200107327 /* UIColorExtension.swift in Sources */,
+				E91E0B342CA1A91F00107327 /* AddressSearchResultTableViewCell.swift in Sources */,
+				E91E0B242CA1A91F00107327 /* SplashScreenVC.swift in Sources */,
+				E91E0B292CA1A91F00107327 /* UIActivityIndicatorViewExtension.swift in Sources */,
+				E91E0B3A2CA1A91F00107327 /* CustomLoadingIndicator.swift in Sources */,
+				E91E0B302CA1A91F00107327 /* SearchAddressVM.swift in Sources */,
+				E91E0B312CA1A91F00107327 /* LandingVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E97373DD2CA06FEA00DAD547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97373DE2CA06FEA00DAD547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E97373E22CA06FEC00DAD547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97373E32CA06FEC00DAD547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E97373E62CA06FEC00DAD547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E97373E72CA06FEC00DAD547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97373E92CA06FEC00DAD547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65AFA883086817156CC6CE5 /* Pods-N-VibeGoogleMapTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7PFVCRU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "N-VibeGoogleMapTest/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.n-vibe.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E97373EA2CA06FEC00DAD547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8D0633637059CABF33A012 /* Pods-N-VibeGoogleMapTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7PFVCRU85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "N-VibeGoogleMapTest/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.n-vibe.test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97373CF2CA06FEA00DAD547 /* Build configuration list for PBXProject "N-VibeGoogleMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97373E62CA06FEC00DAD547 /* Debug */,
+				E97373E72CA06FEC00DAD547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97373E82CA06FEC00DAD547 /* Build configuration list for PBXNativeTarget "N-VibeGoogleMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97373E92CA06FEC00DAD547 /* Debug */,
+				E97373EA2CA06FEC00DAD547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97373CC2CA06FEA00DAD547 /* Project object */;
+}

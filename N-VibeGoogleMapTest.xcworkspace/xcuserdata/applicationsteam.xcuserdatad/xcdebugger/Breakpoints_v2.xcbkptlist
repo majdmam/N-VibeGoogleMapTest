@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A950628-1AA2-43BB-A3E7-DFBB652CDCB1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F91910CC-A206-4CAA-9FCB-E7224CF5D0F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SplashScreenVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88229AA2-5F37-4071-BF10-D38B33FBCFF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SplashScreenVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0398E1AF-0D5A-4975-9503-786079474EA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Views/AddressSearchResultTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "textFieldShouldBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "282B350F-0339-4B4B-858C-723484E6DCA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/SearchAddressVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "textFieldTextDidChanged()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "282B350F-0339-4B4B-858C-723484E6DCA5 - a86bb0fe28b9c627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "N_VibeGoogleMapTest.SearchAddressVC.textFieldTextDidChanged() -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Presentation/Controllers/SearchAddressVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "282B350F-0339-4B4B-858C-723484E6DCA5 - 672eb5de25036f80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.GMSAutocompletePrediction&gt;&gt;) -&gt; () in N_VibeGoogleMapTest.SearchAddressVC.textFieldTextDidChanged() -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Presentation/Controllers/SearchAddressVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B40D1C51-2401-44F3-9B32-19E7B25920C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "searchPlaces(with:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B40D1C51-2401-44F3-9B32-19E7B25920C2 - 95d290cd63c17f28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "N_VibeGoogleMapTest.GooglePlacesSearchManager.searchPlaces(with: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;__C.GMSAutocompletePrediction&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "B40D1C51-2401-44F3-9B32-19E7B25920C2 - 2eda29cd74e8f65f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.GMSAutocompletePrediction&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.searchPlaces(with: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;__C.GMSAutocompletePrediction&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A885D20-F395-4F6C-8AF0-168FC6E025FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "searchPlaces(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DEE28C8-A8CE-48C1-A492-15AB97159678"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "searchPlaces(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2D03983-AE69-4383-8921-C5E935A79217"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/SearchAddressVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "textFieldTextDidChanged()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33285616-2561-418C-A108-4C3138457ECA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/SearchAddressVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "setupViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A36189BC-ADD6-479F-85A1-6459002729A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/LandingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "setupMainStack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C501BD8-9F3C-4584-BEDA-9781F7B7C01E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/LandingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "setupViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4550CCD-F3E9-404B-AA55-225C3CCF1EB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getCoordinates(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB48FB36-F1C7-4CC2-B0FC-0F4D17D35299"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/SearchAddressVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB48FB36-F1C7-4CC2-B0FC-0F4D17D35299 - 3134f03d1c53e74a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSPlace&gt;) -&gt; () in N_VibeGoogleMapTest.SearchAddressVC.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Presentation/Controllers/SearchAddressVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "CB48FB36-F1C7-4CC2-B0FC-0F4D17D35299 - f7e54f9f083c97d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "N_VibeGoogleMapTest.SearchAddressVC.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Presentation/Controllers/SearchAddressVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "2536">
+               </Location>
+               <Location
+                  uuid = "CB48FB36-F1C7-4CC2-B0FC-0F4D17D35299 - 3134f03d1c53e708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSPlace&gt;) -&gt; () in N_VibeGoogleMapTest.SearchAddressVC.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/Presentation/Controllers/SearchAddressVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C13026C-AE57-43D7-9EAC-F0997B4FBAF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/SearchAddressVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9609DB8E-3DFE-4ABD-8690-4B6CA3DB4DE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DC2C5AB-1A18-465D-A3B9-80E0A4EB0057"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27ACF34D-9CAA-4ECF-8BF0-E838C13685E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A64C3F3-1144-48EF-9857-39A4CA34AFEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C47B0F31-1A63-48D3-875C-2B362CFB5C73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0518BA63-228C-47C7-A3E5-0677C60E3D97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0518BA63-228C-47C7-A3E5-0677C60E3D97 - f58d5d7d159d0f6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "0518BA63-228C-47C7-A3E5-0677C60E3D97 - f58d5d7d159d0f6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFA1A0BA-6B93-4AFF-8EC2-612C77CD62B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67E7E338-2091-489B-94FE-0E6DD889DFED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67E7E338-2091-489B-94FE-0E6DD889DFED - f58d5d7d159d0eb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "2232">
+               </Location>
+               <Location
+                  uuid = "67E7E338-2091-489B-94FE-0E6DD889DFED - f58d5d7d159d0eb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "2400">
+               </Location>
+               <Location
+                  uuid = "67E7E338-2091-489B-94FE-0E6DD889DFED - f58d5d7d159d0eb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "2300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "589DBD11-E160-4F3A-BED7-322F3C6BAE2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "589DBD11-E160-4F3A-BED7-322F3C6BAE2C - f58d5d7d159d0f4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "589DBD11-E160-4F3A-BED7-322F3C6BAE2C - f58d5d7d159d0f4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in N_VibeGoogleMapTest.GooglePlacesSearchManager.getWalkingRoute(start: __C.CLLocationCoordinate2D, destination: __C.CLLocationCoordinate2D, completion: (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC67E60F-299A-4346-BC08-78AFD18CA362"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "029C30AC-37EE-488F-A31E-C20A3E4DCC0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13776873-9B3A-4AD1-9A3B-CC424A480A73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Utilities/Managers/GooglePlacesSearchManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "getWalkingRoute(start:destination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9770AD3B-B0B3-443E-8CBA-E4BA7C220E8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "displayRoute()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9770AD3B-B0B3-443E-8CBA-E4BA7C220E8F - dff506e4943cb1ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in N_VibeGoogleMapTest.NavigationMapVC.displayRoute() -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Presentation/Controllers/NavigationMapVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "9770AD3B-B0B3-443E-8CBA-E4BA7C220E8F - f8798e6444816757"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;__C.GMSPolyline&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in N_VibeGoogleMapTest.NavigationMapVC.displayRoute() -&gt; ()"
+                  moduleName = "N-VibeGoogleMapTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applicationsteam/Desktop/N-Vibe/N-VibeGoogleMapTest/N-VibeGoogleMapTest/Presentation/Controllers/NavigationMapVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C3E322C-F2F1-4AC1-B1FC-C15362A95EDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "displayRoute()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0E9EFC1-61DE-40B9-8EA9-D219486F6952"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "lastLocationChanged(location:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D790E71-5F72-4DBC-A3E9-23C74B38B75B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "N-VibeGoogleMapTest/Presentation/Controllers/NavigationMapVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "lastLocationChanged(location:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
